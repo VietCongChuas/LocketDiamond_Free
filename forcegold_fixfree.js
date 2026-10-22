@@ -48,11 +48,11 @@ if (ua.includes("Locket")) {
             tag: "LOCKET GOLD VIETCONGCHUAS",
             tag_gradient: true,
             tag_style: "gold_gradient",
-            title: "Locket Gold đã kích hoạt thành công! 💛",
+            title: "LOCKETGOLD đã thành công",
             feature_set: [
                 {
-                    title: "Zalo: 0794616902 ✨",
-                    body: "QuocVietPC 💛",
+                    title: "Zalo: 0794616902",
+                    body: "QuocVietPC",
                     imageURL: "https://i.postimg.cc/kM0d4gLg/Gemini-Generated-Image-ipo0bpipo0bpipo0.png"
                 }
             ],

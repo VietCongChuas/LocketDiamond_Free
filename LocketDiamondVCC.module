@@ -9,13 +9,13 @@ user-agent = Locket/1.0.0 (iPhone; iOS 26.3; Scale/3.00)
 # ~ Locket Diamond - Shadowrocket
 
 # RevenueCat Response (Fix Premium)
-revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/VietCongChuas/LocketDiamond_Free/refs/heads/main/locketfix_fixfree.js, requires-body=true, max-size=-1, timeout=60
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/VietCongChuas/LocketDiamond_VCC/refs/heads/main/locketfix_fixfree.js, requires-body=true, max-size=-1, timeout=60
 
 # RevenueCat Request Header (Bypass kiểm tra)
-deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/VietCongChuas/LocketDiamond_Free/refs/heads/main/header_fixfree.js, timeout=60
+deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/VietCongChuas/LocketDiamond_VCC/refs/heads/main/header_fixfree.js, timeout=60
 
 # Locket Firebase Remote Config (Force Gold)
-locket_rc = type=http-response, pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-4252a\/.+, script-path=https://raw.githubusercontent.com/VietCongChuas/LocketDiamond_Free/refs/heads/main/forcegold_fixfree.js, requires-body=true, max-size=-1, timeout=60
+locket_rc = type=http-response, pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-4252a\/.+, script-path=https://raw.githubusercontent.com/VietCongChuas/LocketDiamond_VCC/refs/heads/main/forcegold_fixfree.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = api.revenuecat.com, firebaseremoteconfig.googleapis.com

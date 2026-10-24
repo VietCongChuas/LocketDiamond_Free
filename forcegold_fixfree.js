@@ -45,10 +45,10 @@ if (ua.includes("Locket")) {
             profile_banner: true
         }),
         feature_discovery_popup_config: JSON.stringify({
-            tag: "LOCKET GOLD VIETCONGCHUAS",
+            tag: "LOCKET GOLD QVIETPC",
             tag_gradient: true,
             tag_style: "gold_gradient",
-            title: "LOCKETGOLD đã thành công",
+            title: "Đã lên GOLD",
             feature_set: [
                 {
                     title: "Zalo: 0794616902",
